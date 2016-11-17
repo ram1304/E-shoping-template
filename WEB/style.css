@@ -1,0 +1,267 @@
+*{margin: 0px; padding: 0px;}
+body
+{
+	
+	
+	background: #F5F6CE; 
+	background-repeat: no-repeat;
+}
+#header
+{
+	width: 100%;
+	height: 40px;
+	background: -webkit-linear-gradient(top, #fcfff4 0%,#e9e9ce 100%);
+	box-shadow: 0px 0px 50px 0px grey;
+	
+}
+#navbar
+{
+	width: 600px;
+	height: 40px;
+	float: right;
+}
+#navbar>li
+{
+	float: left;
+	width: 200px;
+	list-style: none;
+}
+li>a
+{
+	display: block;
+	color: black;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	font-family: cursive;
+	font-size: 15px;
+	border-right:  1px solid black;
+}
+li>a:hover
+{
+	background: green;
+	box-shadow: 0px 0px 30px 0px grey;
+}
+ul>li>ul>li
+{
+	display: none;
+}
+ul>li:hover ul>li
+{
+  display: block;
+  background: #F5F6CE;
+  position: relative;
+  border: 1px solid black;
+
+
+}
+#logo
+{
+
+	float: left;
+	margin-left: 10px;
+	cursor: pointer;
+}
+h3
+{
+	margin-top: -40px;
+	margin-left: 80px;
+	font-family: cursive;
+	font-style: italic;
+	font-size: 25px;
+}
+#pro1
+{
+	padding: 15px;
+	box-shadow: 0px 2px 2px 2px grey;
+	border: 1px solid #F5F6CE;
+	width: 200px;
+	height:200px;
+	display: block;
+	margin-left: 180px;
+	margin-top: 100px;
+}
+#pro1:hover
+{
+		border: 1px solid  grey;	
+}
+#pro1_desc
+{
+	padding: 5px;
+	box-shadow: 0px 5px 5px 0px grey;
+	border: 1px solid #F5F6CE;
+	width:220px;
+	height:40px;
+	margin-left: 180px;
+	margin-top: 5px;
+	text-align: center;
+}
+#pro2
+{
+	padding: 15px;
+	box-shadow: 0px 2px 2px 2px grey;
+	border: 1px solid #F5F6CE;
+	width: 200px;
+	height:200px;
+	display: block;
+	margin-left: 480px;
+	margin-top: -289px;
+}
+#pro2:hover
+{
+		border: 1px solid  grey;	
+}
+#pro2_desc
+{
+	padding: 5px;
+	box-shadow: 0px 5px 5px 0px grey;
+	border: 1px solid #F5F6CE;
+	width:220px;
+	height:40px;
+	margin-left: 480px;
+	margin-top: 5px;
+	text-align: center;
+}
+#pro3
+{
+	padding: 15px;
+	box-shadow: 0px 2px 2px 2px grey;
+	border: 1px solid #F5F6CE;
+	width: 200px;
+	height:200px;
+	display: block;
+	margin-left: 780px;
+	margin-top: -289px;
+}
+#pro3:hover
+{
+		border: 1px solid  grey;	
+}
+#pro3_desc
+{
+	padding: 5px;
+	box-shadow: 0px 5px 5px 0px grey;
+	border: 1px solid #F5F6CE;
+	width:220px;
+	height:40px;
+	margin-left: 780px;
+	margin-top: 5px;
+	text-align: center;
+}
+#pro4
+{
+	padding: 15px;
+	box-shadow: 0px 2px 2px 2px grey;
+	border: 1px solid #F5F6CE;
+	width: 200px;
+	height:200px;
+	display: block;
+	margin-left: 180px;
+	margin-top: 120px;
+}
+#pro4:hover
+{
+		border: 1px solid  grey;	
+}
+#pro4_desc
+{
+	padding: 5px;
+	box-shadow: 0px 5px 5px 0px grey;
+	border: 1px solid #F5F6CE;
+	width:220px;
+	height:40px;
+	margin-left: 180px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+#pro5
+{
+	padding: 15px;
+	box-shadow: 0px 2px 2px 2px grey;
+	border: 1px solid #F5F6CE;
+	width: 200px;
+	height:200px;
+	display: block;
+	margin-left: 480px;
+	margin-top: -288px;
+}
+#pro5:hover
+{
+		border: 1px solid  grey;	
+}
+#pro5_desc
+{
+	padding: 5px;
+	box-shadow: 0px 5px 5px 0px grey;
+	border: 1px solid #F5F6CE;
+	width:220px;
+	height:40px;
+	margin-left: 480px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+#pro6
+{
+	padding: 15px;
+	box-shadow: 0px 2px 2px 2px grey;
+	border: 1px solid #F5F6CE;
+	width: 200px;
+	height:200px;
+	display: block;
+	margin-left: 780px;
+	margin-top: -288px;
+}
+#pro6:hover
+{
+		border: 1px solid  grey;	
+}
+#pro6_desc
+{
+	padding: 5px;
+	box-shadow: 0px 5px 5px 0px grey;
+	border: 1px solid #F5F6CE;
+	width:220px;
+	height:40px;
+	margin-left: 780px;
+	margin-top: 5px;
+	text-align: center;
+}
+#new
+{
+	font-family: Comic Sans MS;
+	font-size: 20px;
+	margin-left: 2px;
+	margin-top: -220px;
+}
+#and
+{
+	font-family: Comic Sans MS;
+	font-size: 20px;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+#Ex
+{
+
+font-family: Comic Sans MS;
+	font-size: 20px;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+#btn
+{
+	margin-top: 10px;
+	margin-left: 45px;
+	border-radius: 3px;
+	background: skyblue;
+	width: 80px;
+	height: 30px;
+	font-family: cursive;
+	cursor: pointer;
+}
+#btn:hover
+{
+	border: 1px solid grey;
+}
